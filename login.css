@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
+*  {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: linear-gradient(45deg, purple, blue);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+    fieldset {
+        background: white;
+        min-height: 40vh;
+        max-width: 300px;
+        padding: 1rem;
+        border-radius: 8px;
+        box-shadow: 5px 5px 15px rgb(29, 29, 29);
+    
+    }
+
+    h1 {
+        padding: 20px;
+        margin-bottom: 5px;
+        font-weight: 500;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cadastro {
+        padding: 5px;
+        margin-bottom: 2px;
+    }
+
+ form input[type="submit"] {
+     padding: 1px;
+     color: white;
+    background: linear-gradient(45deg, purple, blue);
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 8pt;
+    font-weight: 300;
+ }
+
+#footer {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+}
+
+#footer span {
+    color: rgb(99, 98, 98);
+    font-size: 8pt;
+    text-align: center;
+    
+}
+
+.socialmedia  {
+    margin-top: 3px;
+    font-size: 0.70rem;
+    cursor: pointer;
+    width: 100%;
+    padding: 2px;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.socialmedia a {
+    text-decoration: none;
+    color: white
+}
+
+#facebook {
+    border-radius: 4px;
+    margin-bottom: 5px;
+    background: linear-gradient(to right, rgb(41, 95, 212), rgb(29, 43, 167))
+    
+    
+    
+}
+
+#twitter {
+    border-radius: 4px;
+    background: linear-gradient(to right,rgb(48, 132, 201) ,rgb(81, 153, 235));
+}
